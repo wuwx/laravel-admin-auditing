@@ -1,0 +1,34 @@
+{
+    "name": "wuwx/laravel-admin-auditing",
+    "description": "description...",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/wuwx/laravel-admin-auditing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wu Weixin",
+            "email": "wuweixin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6",
+        "owen-it/laravel-auditing": "~9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wuwx\\LaravelAdminAuditing\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wuwx\\LaravelAdminAuditing\\AuditingServiceProvider"
+            ]
+        }
+    }
+}
