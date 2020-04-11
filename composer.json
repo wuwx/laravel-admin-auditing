@@ -13,11 +13,11 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "encore/laravel-admin": "~1.6",
-        "owen-it/laravel-auditing": "~9.0"
+        "encore/laravel-admin": "*",
+        "owen-it/laravel-auditing": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0"
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
